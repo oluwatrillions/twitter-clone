@@ -1,0 +1,129 @@
+.header {
+  width: 640px;
+  box-sizing: border-box;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: start;
+  line-height: 3.3em;
+  box-sizing: border-box;
+  font-size: 1.1em;
+}
+
+.nav-bar {
+  background: inherit;
+  margin-left: 350px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.explore img {
+  width: 35px;
+  height: 35px;
+  margin-left: -5px;
+}
+
+.more img {
+  width: 30px;
+  height: 30px;
+}
+
+.profile img {
+  width: 30px;
+  height: 33px;
+  margin-top: 10px;
+}
+
+.home img {
+  height: 25px;
+  width: 25px;
+  margin-top: 18px;
+}
+
+.lists img {
+  height: 25px;
+  margin-top: 18px;
+}
+
+nav .logo {
+  width: 37px;
+  height: 37px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+img {
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.message img {
+  width: 23px;
+  height: 27px;
+  margin-top: 18px;
+}
+
+.bookmark img {
+  height: 30px;
+  width: 35px;
+  margin-top: 20px;
+  margin-left: -6px;
+}
+
+.notif img {
+  width: 40px;
+  height: 40px;
+  margin-left: -9px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 1.3em;
+  color: rgb(100, 97, 97);
+}
+
+.explore h2 {
+  margin-left: -6px;
+}
+
+.notif h2 {
+  margin-left: -6px;
+}
+
+.bookmark h2 {
+  margin-left: -5px;
+}
+
+.lists h2 {
+  margin-left: -1px;
+}
+
+.profile h2 {
+  margin-left: -6px;
+}
+
+.more h2 {
+  margin-left: -5px;
+}
+
+.home h2 {
+  font-weight: 900;
+  color: rgb(63, 56, 56);
+}
+
+button {
+  margin-top: 20px;
+  width: 230px;
+  height: 52px;
+  border-radius: 50px;
+  border: none;
+  background: rgb(29, 161, 242);
+  font-size: 1em;
+  font-weight: 700;
+  color: aliceblue;
+  box-sizing: border-box;
+  margin-left: -10px;
+}
