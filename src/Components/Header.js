@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import User from './User'
 
 function Header() {
     return (
@@ -41,6 +42,7 @@ function Header() {
                     <h2>More</h2>
                 </nav>
                 <button>Tweet</button>
+                <User/>
             </div>
         </div>
     )

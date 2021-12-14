@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.profiler {
+  display: flex;
+  margin-top: 310px;
+  margin-left: 10px;
+}
+
+.handle {
+  color: rgb(129, 131, 133);
+  font-weight: 100;
+}
+
+.profiler img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+}
+
+.results {
+  margin-left: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.threeDots {
+  right: 0;
+  top: 0;
+  position: absolute;
+  margin-right: -60px;
+  margin-top: -15px;
+  font-weight: 600;
+}

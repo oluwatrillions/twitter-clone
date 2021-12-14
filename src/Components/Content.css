@@ -1,6 +1,104 @@
-.content {
-  width: 640px;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  border-left: 1px solid rgb(240, 237, 237);
-  border-right: 1px solid rgb(240, 237, 237);
+}
+
+.content {
+  box-sizing: border-box;
+  border-right: 1px solid rgb(238, 235, 235);
+}
+
+.sparkles {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(238, 235, 235);
+  margin-bottom: 5x;
+}
+
+.sparkles h2 {
+  padding-top: 15px;
+  padding-left: 15px;
+  color: black;
+  font-weight: 600;
+}
+
+.sparkles img {
+  margin-bottom: 10px;
+}
+
+.tweetPage img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.tweetPage {
+  display: flex;
+  border-bottom: 1px solid rgb(238, 235, 235);
+}
+
+.yourTweet textarea {
+  width: 26vw;
+  /* word-wrap: break-word;
+  word-break: break-all; */
+  margin-top: 1.5em;
+  border: transparent;
+  outline: none;
+  font-size: 1.5em;
+  color: rgb(41, 38, 38);
+  font-weight: 100;
+  resize: none;
+}
+
+.insideDiv {
+  display: flex;
+  border-bottom: 1px solid rgb(238, 235, 235);
+}
+
+.insideDiv img {
+  width: 17px;
+  height: 17px;
+  margin: 0;
+}
+
+.insideDiv h4 {
+  margin-left: 5px;
+  font-size: 0.9em;
+  color: rgb(29, 161, 242);
+  font-weight: 600;
+  margin-bottom: 1.1em;
+}
+
+.theIcons img {
+  width: 23px;
+  height: 23px;
+  margin: 0;
+  margin-right: 0.8em;
+  margin-top: 1.2em;
+}
+
+.tweetPageIcons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.8em;
+}
+
+.tweetPageIcons button {
+  width: 80px;
+  height: 35px;
+  margin-top: 0.9em;
+}
+
+.unseenTweets {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 1em;
+  padding-bottom: 0.8em;
+  font-size: 1.1em;
+  border-bottom: 1px solid rgb(238, 235, 235);
+  color: rgb(29, 161, 242);
 }
