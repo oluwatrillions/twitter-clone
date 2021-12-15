@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.timeline {
+  border-bottom: 1px solid rgb(238, 235, 235);
+}
+
+.timelines {
+  display: flex;
+  margin: 15px;
+}
+
+.profileImage {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+
+.tweetContent {
+  margin-left: 15px;
+  padding: 0;
+}
+
+.tweetContent h3 {
+  font-weight: 100;
+  font-size: 1.1em;
+  color: rgb(80, 76, 76);
+}
+
+.displayName {
+  color: rgb(44, 42, 42);
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.username {
+  font-size: 1.2em;
+}
+
+.credentials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.credentials div {
+  display: flex;
+}
+
+.credentials h6 {
+  font-size: 1.4em;
+  opacity: 0.5;
+}
+
+.tweetFeedback {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.tweetFeedback img {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+}
+
+.tweetMetric {
+  display: flex;
+  margin-right: 5em;
+}
+
+.tweetMetric h4 {
+  margin-left: 1em;
+  font-weight: 100;
+  color: rgb(148, 141, 141);
+}

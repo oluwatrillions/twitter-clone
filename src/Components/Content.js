@@ -1,6 +1,7 @@
 import React from 'react'
 import './Content.css'
 import images from './images/pp.jpeg'
+import UserProfile from './UserProfile'
 
 
 function Content() {
@@ -36,6 +37,7 @@ function Content() {
                 </div>
             </div>
             <div className='unseenTweets'>Show 74 Tweets</div>
+            <UserProfile />
         </div>
     )
 }
