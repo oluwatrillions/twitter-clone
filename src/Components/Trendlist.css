@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.trendingList {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5em;
+}
+
+.trendingList img {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+}
+
+.trendingList h2 {
+  color: black;
+  font-weight: 600;
+}
+
+.trendyList h4 {
+  color: grey;
+  font-weight: 100;
+  font-size: 0.9em;
+}
+
+.trendyList h3 {
+  font-size: 1.1em;
+}
+
+.trendyList h5 {
+  color: grey;
+  font-weight: 100;
+  font-size: 0.9em;
+}

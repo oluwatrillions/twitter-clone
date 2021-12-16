@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.follow {
+  height: 25vh;
+  background: rgb(248, 248, 248);
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 1em;
+}

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.generalStyle {
+  display: flex;
+  justify-content: start;
+}
+
+.followStyle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.followStyle img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+}
+
+.followHandle {
+  margin-left: 0.8em;
+}
+
+.followHandle h3 {
+  font-size: 1em;
+}
+
+.followStyle button {
+  width: 90px;
+  height: 40px;
+  margin: 0;
+  background: black;
+}
+
+.followHandle .handleStyle {
+  font-size: 1.2em;
+  color: grey;
+  font-weight: 100;
+}
