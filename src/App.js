@@ -5,7 +5,7 @@ import Explore from './Explore'
 
 function App() {
   return (
-    <div>
+    <div className='appStyle'>
       <Router>
           <Switch>
           

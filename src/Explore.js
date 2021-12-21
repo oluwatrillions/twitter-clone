@@ -1,15 +1,15 @@
 import React from 'react'
 import ExploreHero from './Components/ExploreHero'
+import ExploreTrends from './Components/ExploreTrends'
 import Header from './Components/Header'
-import Trends from './Components/Trends'
-import WhotoFollow from './Components/WhotoFollow'
 import './Explore.css'
+import ExploreFollow from './Components/ExploreFollow'
 
 function Explore() {
     return (
-        <div  className='exploreContainer'>
+        <div className='exploreContainer'>
             <Header />
-            <div>
+            <div className='exploreStyles'>
                 <div className='exploreSearch'>
                     <div className='searchTab'>
                     <img src="https://img.icons8.com/fluency-systems-regular/48/000000/search--v1.png" alt=''/>
@@ -18,9 +18,9 @@ function Explore() {
                     <img className='settingsImg' src="https://img.icons8.com/material-outlined/48/000000/settings.png" alt=''/>
                 </div>
                 <ExploreHero />
-                <Trends/>
+                <ExploreTrends/>
             </div>
-            <WhotoFollow/>
+            <ExploreFollow/>
         </div>
     )
 }

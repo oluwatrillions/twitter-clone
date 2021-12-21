@@ -8,6 +8,11 @@
   display: grid;
   grid-template-columns: 31.5vw 31.5vw 37vw;
   justify-content: space-between;
+  height: 100vh;
+  border-left: 1px solid black;
+}
+
+.exploreStyles {
   border-right: 1px solid rgb(238, 235, 235);
 }
 

@@ -3,9 +3,3 @@
   margin: 0;
   padding: 0;
 }
-
-.container {
-  display: grid;
-  grid-template-columns: 31.5vw 31.5vw 37vw;
-  justify-content: space-between;
-}
