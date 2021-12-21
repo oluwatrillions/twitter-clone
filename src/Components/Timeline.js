@@ -6,7 +6,7 @@ function Timeline({tweetData}) {
     return (
         <div className='timeline'>
             {tweetData.map((tweeters) => {
-                const { id, image, displayName, userName, tweet, replies, retweets, likes } = tweeters
+                const { id, displayName, userName, tweet, replies, retweets, likes } = tweeters
                 return <div key={ id}className='timelines'>
                             <img className='profileImage' src={picture} alt='' />
                            <div className='tweetContent'>

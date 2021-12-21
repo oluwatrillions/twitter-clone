@@ -13,7 +13,8 @@ function Content() {
             </div>
             <div className='tweetPage'>
                 <div className='tweetImage'>
-                    <img src={images} alt='' />
+                    <img
+                       className='userImage' src={images} alt='' />
                 </div>
                 <div className='tweetSection'>
                     <div className='yourTweet'>

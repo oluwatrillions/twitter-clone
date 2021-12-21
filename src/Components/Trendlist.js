@@ -16,7 +16,7 @@ function Trendlist({trendy}) {
                     <h5>{ numberofTweets}K Tweets</h5>
                 </div>
             })}
-            
+            <h3 className='showMore'>Show more</h3>
         </div>
     )
 }

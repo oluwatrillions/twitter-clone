@@ -37,3 +37,12 @@
   font-weight: 100;
   font-size: 0.9em;
 }
+
+.trendyList {
+  margin-bottom: 15px;
+}
+
+.showMore {
+  color: rgb(29, 161, 242);
+  font-weight: 100;
+}

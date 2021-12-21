@@ -1,14 +1,23 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Header from './Components/Header'
-import Content from './Components/Content'
-import Trending from './Components/Trending'
+import Home from './Components/Home'
+import Explore from './Explore'
 
 function App() {
   return (
-    <div className='container'>
-      <Header/>
-      <Content />
-      <Trending/>
+    <div>
+      <Router>
+          <Switch>
+          
+          <Route path='/explore'>
+            <Explore />
+          </Route>
+          <Route path='/'>
+            <Home />
+          </Route>
+
+          </Switch>
+        </Router>
     </div>
   );
 }

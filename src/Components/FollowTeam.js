@@ -5,9 +5,10 @@ import images from './images/picture2.jfif'
 
 function FollowTeam({followMe}) {
     return (
-        <div>
+        <div className='followContainer'>
+            <h2 className='followLead'>Who to follow</h2>
             {followMe.map((list) => {
-                const { id, image, name, handle } = list
+                const { id, name, handle } = list
                 return <div key={id} className='followStyle'>
                     <div className='generalStyle'>
                         <img src={images} alt='' />

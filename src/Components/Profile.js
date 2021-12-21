@@ -5,7 +5,7 @@ function Profile({info}) {
     return (
         <div>
              {info.map((item) => {
-                const { id, name, image, handle } = item;
+                const { id, name, handle } = item;
                 return <div key={id} className='profiler'>
                     <img src={images} alt='' />
                     <div className='results'>

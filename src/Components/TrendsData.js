@@ -28,6 +28,13 @@ const TrendsData = [
         category: 'Life',
         trendSetter: 'Zendaya',
         numberofTweets: 19.6,
+    },
+        
+      {
+        id: 6,
+        category: 'Politics',
+        trendSetter: 'Trump',
+        numberofTweets: 187,
     }
 ]
 

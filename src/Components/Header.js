@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import User from './User'
+import {Link} from 'react-router-dom'
 
 function Header() {
     return (
@@ -11,11 +12,11 @@ function Header() {
                 </nav>
                 <nav className='home'>
                     <img src="https://img.icons8.com/external-those-icons-fill-those-icons/48/000000/external-smart-home-smart-home-those-icons-fill-those-icons-1.png" alt='' />
-                    <h2>Home</h2>
+                    <Link to='/'><h2>Home</h2></Link>
                 </nav>
                  <nav className='explore'>
                     <img src="https://img.icons8.com/ios/50/000000/hashtag.png" alt='' />
-                    <h2>Explore</h2>
+                   <Link to='/explore'><h2>Explore</h2></Link> 
                 </nav>
                  <nav className='notif'>
                     <img src="https://img.icons8.com/carbon-copy/100/000000/bell--v1.png" alt=''/>
