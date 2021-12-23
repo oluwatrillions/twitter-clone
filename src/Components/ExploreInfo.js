@@ -6,7 +6,7 @@ function ExploreInfo({info}) {
     return (
         <div className='exploreInfo'>
             {info.map((data) => {
-                const { id, image, category, heading } = data
+                const { id, category, heading } = data
                 return <div className='exploreInfoImg' key={id}>
                     <img src={images} alt='' />
                     <div>
